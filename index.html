@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishabh Mishra | Data Analyst Portfolio</title>
+    <meta name="description" content="Portfolio of Rishabh Mishra - Data Analyst specializing in SQL, Python, Power BI, and Excel. Building end-to-end data pipelines and actionable executive dashboards.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Rishabh Mishra | Data Analyst Portfolio">
+    <meta property="og:description" content="Turning messy data into decisions that move business metrics. SQL • Python • Power BI • Excel">
+    <meta property="og:image" content="assets/images/profile.png">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========================================================= -->
+    <!-- 1. NAVBAR                                                 -->
+    <!-- ========================================================= -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                Rishabh<span class="logo-dot"></span>
+            </a>
+            
+            <nav class="desktop-nav" aria-label="Main Navigation">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="btn btn-primary nav-cta">Contact Me</a>
+            </nav>
+            
+            <button class="hamburger" aria-label="Toggle navigation" id="hamburger-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+        
+        <!-- Mobile Slide-out Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <button class="close-menu" aria-label="Close menu" id="close-menu-btn">&times;</button>
+            <nav class="mobile-nav" aria-label="Mobile Navigation">
+                <a href="#home" class="mobile-link">Home</a>
+                <a href="#about" class="mobile-link">About</a>
+                <a href="#skills" class="mobile-link">Skills</a>
+                <a href="#projects" class="mobile-link">Projects</a>
+                <a href="#education" class="mobile-link">Education</a>
+                <a href="#contact" class="btn btn-primary mobile-cta mobile-link">Contact Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ========================================================= -->
+        <!-- 2. HERO SECTION                                           -->
+        <!-- ========================================================= -->
+        <section id="home" class="hero">
+            <div class="hero-bg">
+                <div class="accent-blob blob-peach"></div>
+                <div class="accent-blob blob-lavender"></div>
+            </div>
+
+            <div class="container hero-container">
+                <!-- Left Hero Content -->
+                <div class="hero-content fade-up">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span> Available for Data Analyst Roles
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="greeting">Hi! I'm</span>
+                        <span class="name">Rishabh Mishra</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span class="highlight-text">Data Analyst</span> &mdash; Pipelines to Dashboards
+                    </h2>
+                    <p class="hero-subtext">
+                        Turning messy data into decisions that move business metrics. I build <strong>SQL &rarr; Python &rarr; Power BI</strong> pipelines, transforming complex relational data into interactive dashboards and clear executive insights.
+                    </p>
+                    
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Projects</span>
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <a href="assets/Rishabh_Mishra_Resume.pdf" download="Rishabh_Mishra_Resume.pdf" class="btn btn-outline">
+                            <i data-lucide="download"></i>
+                            <span>Download Resume</span>
+                        </a>
+                    </div>
+                    
+                    <!-- Counter Stats Row -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-number-wrap">
+                                <span class="counter" data-target="99">0</span><span class="stat-suffix">K+</span>
+                            </div>
+                            <span class="stat-label">Orders Analyzed</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number-wrap">
+                                <span class="counter" data-target="100">0</span><span class="stat-suffix">K+</span>
+                            </div>
+                            <span class="stat-label">Sales Records</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number-wrap">
+                                <span class="counter" data-target="3">0</span><span class="stat-suffix"></span>
+                            </div>
+                            <span class="stat-label">Dashboards Built</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number-wrap">
+                                <span class="counter" data-target="5">0</span><span class="stat-suffix"></span>
+                            </div>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Hero Visual with Rishabh's Profile Photo -->
+                <div class="hero-visual fade-up delay-1">
+                    <div class="photo-container">
+                        <div class="photo-frame">
+                            <img src="assets/images/profile.png" alt="Rishabh Mishra - Data Analyst" class="portrait-img">
+                        </div>
+                        
+                        <!-- Floating Pill Cards (Inspiration Design) -->
+                        <div class="floating-card fc-1">
+                            <div class="fc-icon bar-chart-icon"><i data-lucide="bar-chart-2"></i></div>
+                            <div class="fc-text">
+                                <strong>Power BI</strong>
+                                <span>DAX & Data Modeling</span>
+                            </div>
+                        </div>
+                        
+                        <div class="floating-card fc-2">
+                            <div class="fc-icon db-icon"><i data-lucide="database"></i></div>
+                            <div class="fc-text">
+                                <strong>SQL</strong>
+                                <span>PostgreSQL & MySQL</span>
+                            </div>
+                        </div>
+                        
+                        <div class="floating-badge fc-3" title="Python Data Stack">
+                            <i data-lucide="code-2"></i>
+                        </div>
+
+                        <!-- Decorative Elements -->
+                        <div class="decor-ring dr-1"></div>
+                        <div class="decor-ring dr-2"></div>
+                        <div class="decor-star ds-1">✦</div>
+                        <div class="decor-star ds-2">✦</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools Strip (Below Hero) -->
+            <div class="tools-strip fade-up delay-2">
+                <div class="container tools-strip-container">
+                    <span class="tools-title">Tools I Work With</span>
+                    <div class="tools-grid">
+                        <div class="tool-item">
+                            <div class="tool-icon"><i data-lucide="database"></i></div>
+                            <span class="tool-label">SQL</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon"><i data-lucide="server"></i></div>
+                            <span class="tool-label">PostgreSQL</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon"><i data-lucide="hard-drive"></i></div>
+                            <span class="tool-label">MySQL</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon"><i data-lucide="bar-chart-3"></i></div>
+                            <span class="tool-label">Power BI</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon"><i data-lucide="table"></i></div>
+                            <span class="tool-label">Excel</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon"><i data-lucide="file-code"></i></div>
+                            <span class="tool-label">Python</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon"><i data-lucide="layers"></i></div>
+                            <span class="tool-label">Pandas</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon"><i data-lucide="cpu"></i></div>
+                            <span class="tool-label">NumPy</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon"><i data-lucide="git-branch"></i></div>
+                            <span class="tool-label">Git</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon"><i data-lucide="github"></i></div>
+                            <span class="tool-label">GitHub</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon"><i data-lucide="terminal"></i></div>
+                            <span class="tool-label">Jupyter</span>
+                        </div>
+                        <div class="tool-item">
+                            <div class="tool-icon"><i data-lucide="code"></i></div>
+                            <span class="tool-label">VS Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 3. ABOUT SECTION                                          -->
+        <!-- ========================================================= -->
+        <section id="about" class="about section">
+            <div class="container about-container">
+                <!-- Left Visual Graphic -->
+                <div class="about-visual fade-up">
+                    <div class="about-card-wrapper">
+                        <img src="assets/images/data-pipeline.jpg" alt="Data Pipeline Flow - SQL to Power BI" class="about-pipeline-img">
+                        <div class="about-badge-overlay">
+                            <i data-lucide="sparkles"></i>
+                            <span>End-to-End Pipeline Workflow</span>
+                        </div>
+                    </div>
+                    <div class="about-highlights-grid">
+                        <div class="mini-highlight-card">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Star-Schema Data Warehousing</span>
+                        </div>
+                        <div class="mini-highlight-card">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Automated Power Query ETL</span>
+                        </div>
+                        <div class="mini-highlight-card">
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Executive DAX Measures</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="about-content fade-up delay-1">
+                    <span class="section-label">About Me</span>
+                    <h2 class="section-title">
+                        Data Analysis That Drives <span class="highlight">Decisions</span>
+                    </h2>
+                    <p class="about-text">
+                        Computer Science undergraduate at <strong>Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV)</strong>, Bhopal, specializing in data analytics. I possess hands-on experience architecting end-to-end data workflows &mdash; starting with raw, unstructured relational records in SQL and Python, and concluding with responsive, stakeholder-ready Power BI dashboards.
+                    </p>
+                    <p class="about-text">
+                        My analytical focus centers on exploratory data analysis (EDA), KPI framework design, customer RFM segmentation, and reporting automation. I bridge the gap between technical database queries and executive decisions, ensuring that every chart answers a tangible business problem.
+                    </p>
+                    
+                    <div class="about-actions">
+                        <a href="assets/Rishabh_Mishra_Resume.pdf" download="Rishabh_Mishra_Resume.pdf" class="btn btn-primary">
+                            <i data-lucide="download"></i>
+                            <span>Download Resume</span>
+                        </a>
+                        <a href="#skills" class="btn btn-outline">
+                            <span>Explore Skills</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 4. SKILLS SECTION (Stacked Cards Layout)                 -->
+        <!-- ========================================================= -->
+        <section id="skills" class="skills section bg-light">
+            <div class="container skills-container">
+                <!-- Left Stacked Cards -->
+                <div class="skills-cards fade-up">
+                    <!-- Skill Card 1: SQL (Active by Default) -->
+                    <div class="skill-card active">
+                        <div class="skill-icon"><i data-lucide="database"></i></div>
+                        <div class="skill-info">
+                            <h3>SQL & Relational Databases</h3>
+                            <p class="skill-desc">Relational query design, database modeling, and schema optimization.</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">Joins</span>
+                                <span class="skill-tag">CTEs</span>
+                                <span class="skill-tag">Window Functions</span>
+                                <span class="skill-tag">Subqueries</span>
+                                <span class="skill-tag">Indexing</span>
+                                <span class="skill-tag">Query Optimization</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 2: Power BI -->
+                    <div class="skill-card">
+                        <div class="skill-icon"><i data-lucide="bar-chart-2"></i></div>
+                        <div class="skill-info">
+                            <h3>Power BI & Business Intelligence</h3>
+                            <p class="skill-desc">Interactive executive reporting, dimensional modeling, and DAX calculations.</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Power Query (M)</span>
+                                <span class="skill-tag">DAX Measures</span>
+                                <span class="skill-tag">Star-Schema Modeling</span>
+                                <span class="skill-tag">Row-Level Security</span>
+                                <span class="skill-tag">Drill-through Reports</span>
+                                <span class="skill-tag">Executive KPIs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 3: Excel -->
+                    <div class="skill-card">
+                        <div class="skill-icon"><i data-lucide="table"></i></div>
+                        <div class="skill-info">
+                            <h3>Advanced Excel</h3>
+                            <p class="skill-desc">Dynamic spreadsheet modeling, data validation, and automated lookups.</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Pivot Tables</span>
+                                <span class="skill-tag">XLOOKUP</span>
+                                <span class="skill-tag">INDEX-MATCH</span>
+                                <span class="skill-tag">Power Query</span>
+                                <span class="skill-tag">Automated Dashboards</span>
+                                <span class="skill-tag">Data Validation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 4: Python -->
+                    <div class="skill-card">
+                        <div class="skill-icon"><i data-lucide="code-2"></i></div>
+                        <div class="skill-info">
+                            <h3>Python for Data Science</h3>
+                            <p class="skill-desc">Data wrangling, automated extraction, and statistical computing.</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Pandas</span>
+                                <span class="skill-tag">NumPy</span>
+                                <span class="skill-tag">Matplotlib</span>
+                                <span class="skill-tag">Seaborn</span>
+                                <span class="skill-tag">SciPy</span>
+                                <span class="skill-tag">Data Cleaning ETL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 5: Analytics -->
+                    <div class="skill-card">
+                        <div class="skill-info-full">
+                            <div class="skill-header-row">
+                                <div class="skill-icon"><i data-lucide="trending-up"></i></div>
+                                <div>
+                                    <h3>Data Analytics & Business Acumen</h3>
+                                    <p class="skill-desc">Deriving strategic recommendations through quantitative frameworks.</p>
+                                </div>
+                            </div>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Exploratory Data Analysis (EDA)</span>
+                                <span class="skill-tag">KPI Design</span>
+                                <span class="skill-tag">RFM Segmentation</span>
+                                <span class="skill-tag">Cohort Analysis</span>
+                                <span class="skill-tag">A/B Testing Basics</span>
+                                <span class="skill-tag">Root Cause Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools Row -->
+                    <div class="tools-line">
+                        <strong>Developer & Environment Tools:</strong> Jupyter Notebook, Git, GitHub, Visual Studio Code.
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="skills-content fade-up delay-1">
+                    <span class="section-label">Capabilities</span>
+                    <h2 class="section-title">
+                        My Awesome <span class="highlight">Skills</span>
+                    </h2>
+                    <p class="skills-lead">
+                        I bring a robust technical foundation in relational querying, automated data manipulation, and modern visualization techniques.
+                    </p>
+                    <p class="skills-desc">
+                        By selecting the right tool for each stage &mdash; leveraging SQL for rapid aggregation, Python for intricate cleaning and statistical segmentation, and Power BI for executive storytelling &mdash; I turn disconnected data points into strategic roadmaps that drive measurable ROI.
+                    </p>
+                    <div class="skills-cta-box">
+                        <a href="#contact" class="btn btn-primary">
+                            <span>Hire Me as Data Analyst</span>
+                            <i data-lucide="briefcase"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 5. ANALYTICS WORKFLOW PROCESS SECTION                     -->
+        <!-- ========================================================= -->
+        <section class="process section">
+            <div class="container">
+                <div class="section-header center fade-up">
+                    <span class="section-label">Methodology</span>
+                    <h2 class="section-title">Data Analytics <span class="highlight">Lifecycle</span></h2>
+                    <p class="section-subtitle">How I systematically transition raw business data into actionable executive results.</p>
+                </div>
+
+                <div class="process-grid fade-up delay-1">
+                    <div class="process-card">
+                        <span class="process-step-num">01</span>
+                        <div class="process-icon"><i data-lucide="download-cloud"></i></div>
+                        <h3>1. Extraction & Ingestion</h3>
+                        <p>Querying relational databases (PostgreSQL/MySQL), integrating flat files (CSV/Excel), and connecting APIs with validated schema integrity.</p>
+                    </div>
+
+                    <div class="process-card">
+                        <span class="process-step-num">02</span>
+                        <div class="process-icon"><i data-lucide="filter"></i></div>
+                        <h3>2. Cleaning & Transformation</h3>
+                        <p>Resolving null values, deduplication, type casting, outlier detection, and feature engineering with Python (Pandas) and Power Query.</p>
+                    </div>
+
+                    <div class="process-card">
+                        <span class="process-step-num">03</span>
+                        <div class="process-icon"><i data-lucide="pie-chart"></i></div>
+                        <h3>3. Modeling & Analysis</h3>
+                        <p>Constructing dimensional star schemas, executing RFM customer segmentation, cohort retention, and statistical correlation tests.</p>
+                    </div>
+
+                    <div class="process-card">
+                        <span class="process-step-num">04</span>
+                        <div class="process-icon"><i data-lucide="layout-dashboard"></i></div>
+                        <h3>4. Dashboards & Insights</h3>
+                        <p>Delivering interactive Power BI dashboards, automated refresh workflows, and translating analytical findings into executive strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 6. FEATURED PROJECTS SECTION                              -->
+        <!-- ========================================================= -->
+        <section id="projects" class="projects section bg-light">
+            <div class="container">
+                <div class="section-header center fade-up">
+                    <span class="section-label">Case Studies</span>
+                    <h2 class="section-title">Recent <span class="highlight">Projects</span></h2>
+                    <p class="section-subtitle">Real-world data pipelines, dimensional modeling, and interactive dashboards solving tangible business problems.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Flagship E-Commerce Analytics -->
+                    <article class="project-card fade-up">
+                        <div class="project-img-wrapper">
+                            <img src="assets/images/project-ecommerce.jpg" alt="End-to-End E-Commerce Analytics Platform" class="project-img">
+                            <span class="project-badge">Flagship Project</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">End-to-End E-Commerce Analytics Platform</h3>
+                            <div class="tech-pills">
+                                <span class="tech-pill">PostgreSQL</span>
+                                <span class="tech-pill">Python (Pandas)</span>
+                                <span class="tech-pill">Power BI</span>
+                                <span class="tech-pill">DAX</span>
+                                <span class="tech-pill">Git</span>
+                            </div>
+                            <p class="project-desc">
+                                End-to-end data pipeline built on the public Olist Brazilian E-Commerce dataset (99K+ orders across 9 relational tables). Implemented a star-schema warehouse in PostgreSQL, automated Python ETL checks, RFM segmentation, and an interactive 3-page Power BI dashboard.
+                            </p>
+                            
+                            <!-- Key Metrics Row -->
+                            <div class="project-kpis">
+                                <div class="kpi-box">
+                                    <span class="kpi-val">99.4K</span>
+                                    <span class="kpi-lbl">Orders</span>
+                                </div>
+                                <div class="kpi-box">
+                                    <span class="kpi-val">$15.8M</span>
+                                    <span class="kpi-lbl">Revenue</span>
+                                </div>
+                                <div class="kpi-box">
+                                    <span class="kpi-val">112.7K</span>
+                                    <span class="kpi-lbl">Customers</span>
+                                </div>
+                                <div class="kpi-box">
+                                    <span class="kpi-val">4.12 / 5</span>
+                                    <span class="kpi-lbl">Rating</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-actions">
+                                <button class="btn btn-primary btn-sm open-modal" data-modal="modal-1">
+                                    <i data-lucide="file-text"></i>
+                                    <span>View Case Study</span>
+                                </button>
+                                <a href="https://github.com/rishabhmishra989/ecommerce-analytics-platform" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                                    <i data-lucide="github"></i>
+                                    <span>GitHub Repo</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Sales Performance Dashboard -->
+                    <article class="project-card fade-up delay-1">
+                        <div class="project-img-wrapper">
+                            <img src="assets/images/project-sales.jpg" alt="Sales Performance Analytics Dashboard" class="project-img">
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Sales Performance Analytics Dashboard</h3>
+                            <div class="tech-pills">
+                                <span class="tech-pill">Power BI</span>
+                                <span class="tech-pill">SQL</span>
+                                <span class="tech-pill">Excel</span>
+                                <span class="tech-pill">DAX</span>
+                            </div>
+                            <p class="project-desc">
+                                Analyzed over 100,000 sales records to uncover multi-regional revenue trends, product category profit margins, and sales rep performance. Automated data refreshes using Power Query, reducing manual weekly reporting effort from 3 hours to 15 minutes.
+                            </p>
+                            
+                            <!-- Key Metrics Row -->
+                            <div class="project-kpis">
+                                <div class="kpi-box">
+                                    <span class="kpi-val">100K+</span>
+                                    <span class="kpi-lbl">Records</span>
+                                </div>
+                                <div class="kpi-box">
+                                    <span class="kpi-val">$14.8M</span>
+                                    <span class="kpi-lbl">Revenue</span>
+                                </div>
+                                <div class="kpi-box">
+                                    <span class="kpi-val">$5.92M</span>
+                                    <span class="kpi-lbl">Profit</span>
+                                </div>
+                                <div class="kpi-box">
+                                    <span class="kpi-val">+12.5%</span>
+                                    <span class="kpi-lbl">YoY Growth</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-actions">
+                                <button class="btn btn-primary btn-sm open-modal" data-modal="modal-2">
+                                    <i data-lucide="file-text"></i>
+                                    <span>View Case Study</span>
+                                </button>
+                                <a href="https://github.com/rishabhmishra989" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                                    <i data-lucide="github"></i>
+                                    <span>GitHub Profile</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: HR Analytics Dashboard -->
+                    <article class="project-card fade-up delay-2">
+                        <div class="project-img-wrapper">
+                            <img src="assets/images/project-hr.jpg" alt="HR Workforce & Attrition Analytics Dashboard" class="project-img">
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">HR Workforce & Attrition Analytics</h3>
+                            <div class="tech-pills">
+                                <span class="tech-pill">Power BI</span>
+                                <span class="tech-pill">Excel</span>
+                                <span class="tech-pill">SQL</span>
+                                <span class="tech-pill">Workforce Planning</span>
+                            </div>
+                            <p class="project-desc">
+                                Enterprise HR analytics dashboard tracking employee attrition, demographic diversity, and compensation benchmarks across 1,420 employees. Identified critical turnover risks concentrated in the first 2 years of tenure to guide retention policies.
+                            </p>
+                            
+                            <!-- Key Metrics Row -->
+                            <div class="project-kpis">
+                                <div class="kpi-box">
+                                    <span class="kpi-val">1,420</span>
+                                    <span class="kpi-lbl">Employees</span>
+                                </div>
+                                <div class="kpi-box">
+                                    <span class="kpi-val">11.4%</span>
+                                    <span class="kpi-lbl">Attrition</span>
+                                </div>
+                                <div class="kpi-box">
+                                    <span class="kpi-val">3.8 Yrs</span>
+                                    <span class="kpi-lbl">Avg Tenure</span>
+                                </div>
+                                <div class="kpi-box">
+                                    <span class="kpi-val">165</span>
+                                    <span class="kpi-lbl">New Hires</span>
+                                </div>
+                            </div>
+                            
+                            <div class="project-actions">
+                                <button class="btn btn-primary btn-sm open-modal" data-modal="modal-3">
+                                    <i data-lucide="file-text"></i>
+                                    <span>View Case Study</span>
+                                </button>
+                                <a href="https://github.com/rishabhmishra989" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                                    <i data-lucide="github"></i>
+                                    <span>GitHub Profile</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 7. EDUCATION & CERTIFICATIONS                             -->
+        <!-- ========================================================= -->
+        <section id="education" class="education section">
+            <div class="container edu-grid">
+                <!-- Education Column -->
+                <div class="edu-column fade-up">
+                    <span class="section-label">Academics</span>
+                    <h2 class="col-title">Education</h2>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>B.Tech, Computer Science Engineering</h4>
+                            <p class="institution">Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal</p>
+                            <span class="date">Aug 2024 &ndash; Present</span>
+                            <p class="timeline-desc">Specializing in database architecture, algorithms, and data analytics.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Senior Secondary (Class XII CBSE)</h4>
+                            <p class="institution">Central Board of Secondary Education &bull; <strong>76%</strong></p>
+                            <span class="date">2024</span>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Secondary (Class X CBSE)</h4>
+                            <p class="institution">Central Board of Secondary Education &bull; <strong>81%</strong></p>
+                            <span class="date">2022</span>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Advanced Diploma in Computer Applications (ADCA)</h4>
+                            <p class="institution">STP Computer Education</p>
+                            <span class="date">Feb 2023 &ndash; Feb 2024</span>
+                            <p class="timeline-desc">Advanced spreadsheet operations, computational tools, and practical data systems.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Diploma in Web Development</h4>
+                            <p class="institution">STP Computer Education</p>
+                            <span class="date">Jan 2022 &ndash; Jan 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications Column -->
+                <div class="edu-column fade-up delay-1">
+                    <span class="section-label">Credentials</span>
+                    <h2 class="col-title">Certifications</h2>
+                    
+                    <div class="cert-grid">
+                        <div class="cert-card">
+                            <div class="cert-icon"><i data-lucide="award"></i></div>
+                            <div class="cert-info">
+                                <h4>Data Analytics Essentials</h4>
+                                <p>Comprehensive data lifecycle, exploratory analysis, and business reporting foundations.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="cert-card">
+                            <div class="cert-icon"><i data-lucide="database"></i></div>
+                            <div class="cert-info">
+                                <h4>SQL for Data Analytics</h4>
+                                <p>Advanced joins, CTEs, window functions, indexing, and query performance optimization.</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-card">
+                            <div class="cert-icon"><i data-lucide="bar-chart-2"></i></div>
+                            <div class="cert-info">
+                                <h4>Power BI Data Visualization</h4>
+                                <p>Star-schema data modeling, custom DAX measures, row-level security, and report design.</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-card">
+                            <div class="cert-icon"><i data-lucide="file-spreadsheet"></i></div>
+                            <div class="cert-info">
+                                <h4>Advanced Excel</h4>
+                                <p>Power Query data ingestion, XLOOKUP, INDEX-MATCH, automated dashboards, and validation.</p>
+                            </div>
+                        </div>
+
+                        <div class="cert-card">
+                            <div class="cert-icon"><i data-lucide="code"></i></div>
+                            <div class="cert-info">
+                                <h4>Python for Data Science</h4>
+                                <p>Data manipulation using Pandas and NumPy, exploratory visualization with Matplotlib & Seaborn.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================================= -->
+        <!-- 8. CONTACT CTA SECTION                                    -->
+        <!-- ========================================================= -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="contact-container fade-up">
+                    <div class="contact-header">
+                        <span class="contact-pill">Get In Touch</span>
+                        <h2 class="contact-title">Ready To<br>Get Started?</h2>
+                        <p class="contact-lead">
+                            Seeking full-time Data Analyst roles, internships, or high-impact analytics projects. Let's discuss how data can power your growth.
+                        </p>
+                    </div>
+
+                    <div class="contact-content">
+                        <div class="contact-intro">
+                            <p class="contact-tagline">You know about me, let's talk about you.</p>
+                            <div class="shoot-message">
+                                <span>SHOOT MESSAGE</span>
+                                <div class="circle-icon"><i data-lucide="arrow-up-right"></i></div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-details">
+                            <a href="mailto:rishabhkum34@gmail.com" class="contact-detail-item">
+                                <i data-lucide="mail"></i>
+                                <span>rishabhkum34@gmail.com</span>
+                            </a>
+                            <a href="tel:+919554319541" class="contact-detail-item">
+                                <i data-lucide="phone"></i>
+                                <span>+91 95543 19541</span>
+                            </a>
+                            <div class="contact-detail-item">
+                                <i data-lucide="map-pin"></i>
+                                <span>Bhopal, Madhya Pradesh, India</span>
+                            </div>
+                            
+                            <div class="social-links">
+                                <a href="https://linkedin.com/in/rishabh-mishra-3110292bb" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile">
+                                    <i data-lucide="linkedin"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                                <a href="https://github.com/rishabhmishra989" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile">
+                                    <i data-lucide="github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <form class="contact-form" id="contact-form" action="mailto:rishabhkum34@gmail.com" method="post" enctype="text/plain">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email Address" required aria-label="Your Email Address">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" rows="4" placeholder="Your Message or Project Details..." required aria-label="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">
+                                <span>Send Message</span>
+                                <i data-lucide="send"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ========================================================= -->
+    <!-- 9. FOOTER                                                 -->
+    <!-- ========================================================= -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <a href="#home" class="logo">
+                    Rishabh<span class="logo-dot"></span>
+                </a>
+                
+                <nav class="footer-nav" aria-label="Footer Navigation">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                
+                <div class="footer-social">
+                    <a href="https://linkedin.com/in/rishabh-mishra-3110292bb" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="https://github.com/rishabhmishra989" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i data-lucide="github"></i>
+                    </a>
+                    <a href="mailto:rishabhkum34@gmail.com" aria-label="Email Rishabh">
+                        <i data-lucide="mail"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Rishabh Mishra. Built with precision for Data Analytics.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========================================================= -->
+    <!-- 10. PROJECT CASE STUDY MODALS                             -->
+    <!-- ========================================================= -->
+    
+    <!-- Modal 1: E-Commerce Flagship -->
+    <div id="modal-1" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Close modal">&times;</button>
+            <div class="modal-header">
+                <span class="tech-pill-badge">Flagship Case Study</span>
+                <h2 id="modal-1-title">End-to-End E-Commerce Analytics Platform</h2>
+                <div class="tech-pills">
+                    <span class="tech-pill">PostgreSQL</span>
+                    <span class="tech-pill">Python (Pandas)</span>
+                    <span class="tech-pill">Power BI</span>
+                    <span class="tech-pill">DAX</span>
+                    <span class="tech-pill">Git</span>
+                </div>
+            </div>
+            
+            <div class="modal-body">
+                <img src="assets/images/project-ecommerce.jpg" alt="E-Commerce Performance Dashboard" class="modal-img">
+                
+                <!-- Metrics Grid -->
+                <div class="modal-metrics">
+                    <div class="metric-card">
+                        <div class="metric-value">$15.8M</div>
+                        <div class="metric-label">Total Revenue</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">99.4K</div>
+                        <div class="metric-label">Orders Analyzed</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">112.7K</div>
+                        <div class="metric-label">Active Customers</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">4.12 / 5</div>
+                        <div class="metric-label">Avg Review Score</div>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3><i data-lucide="alert-circle"></i> Business Problem</h3>
+                    <p>
+                        A major e-commerce platform operating across diverse Brazilian states faced visibility bottlenecks in monitoring regional fulfillment delays, customer attrition, and revenue concentrations. Leadership lacked an integrated analytics pipeline to evaluate customer lifetime value (LTV) and delivery logistics impacts on customer satisfaction.
+                    </p>
+                </div>
+                
+                <div class="modal-section">
+                    <h3><i data-lucide="git-merge"></i> Architecture & Technical Approach</h3>
+                    <ul class="modal-list">
+                        <li><strong>Ingestion & Modeling:</strong> Loaded the 99K+ order Brazilian Olist dataset across 9 relational tables into a PostgreSQL database. Architected a star-schema data warehouse with a central <code>fact_orders</code> table linked to dimensions for customers, sellers, products, geolocation, and payments.</li>
+                        <li><strong>Python ETL:</strong> Formulated automated Python (Pandas) notebooks to validate data hygiene &mdash; handling null timestamps, deduplication, date parsing, and outlier reviews.</li>
+                        <li><strong>Advanced SQL Queries:</strong> Wrote modular SQL scripts leveraging Common Table Expressions (CTEs) and window functions (<code>ROW_NUMBER()</code>, <code>DENSE_RANK()</code>, <code>LAG()</code>) to calculate running revenue totals, repeat-purchase frequency, and average order value (AOV).</li>
+                        <li><strong>Power BI Dashboarding:</strong> Designed a 3-page executive report (Executive Summary, Customer Insights, and Fulfillment Operations) with dynamic DAX measures for Year-over-Year (YoY) revenue and retention tracking.</li>
+                    </ul>
+                </div>
+                
+                <div class="modal-section">
+                    <h3><i data-lucide="trending-up"></i> Key Insights & Business Recommendations</h3>
+                    <ul class="modal-list">
+                        <li><strong>RFM Segmentation:</strong> Identified that the top 20% of customers ("Champions" & "Loyal") drove over 58% of gross revenue, establishing the priority cohort for VIP loyalty campaigns.</li>
+                        <li><strong>Delivery Delay Correlation:</strong> Uncovered that orders delivered past the estimated delivery date experienced a 1.8-point drop in review scores (from 4.2 to 2.4 stars). Provided recommendations to reroute logistics through localized regional distribution hubs.</li>
+                    </ul>
+                </div>
+
+                <div class="modal-footer-actions">
+                    <a href="https://github.com/rishabhmishra989/ecommerce-analytics-platform" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        <i data-lucide="github"></i>
+                        <span>Inspect Code on GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Sales Performance -->
+    <div id="modal-2" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-2-title">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Close modal">&times;</button>
+            <div class="modal-header">
+                <span class="tech-pill-badge">Sales Intelligence</span>
+                <h2 id="modal-2-title">Sales Performance Analytics Dashboard</h2>
+                <div class="tech-pills">
+                    <span class="tech-pill">Power BI</span>
+                    <span class="tech-pill">SQL</span>
+                    <span class="tech-pill">Excel</span>
+                    <span class="tech-pill">DAX</span>
+                </div>
+            </div>
+            
+            <div class="modal-body">
+                <img src="assets/images/project-sales.jpg" alt="Sales Performance Dashboard" class="modal-img">
+                
+                <!-- Metrics Grid -->
+                <div class="modal-metrics">
+                    <div class="metric-card">
+                        <div class="metric-value">$14.8M</div>
+                        <div class="metric-label">Total Revenue</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">$5.92M</div>
+                        <div class="metric-label">Gross Profit (40%)</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">284K</div>
+                        <div class="metric-label">Units Sold</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">+12.5%</div>
+                        <div class="metric-label">YoY Growth vs LY</div>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3><i data-lucide="alert-circle"></i> Business Problem</h3>
+                    <p>
+                        Sales leadership relied on static, disparate weekly spreadsheets that required extensive manual compilation. The lag in reporting prevented agile forecasting, obscured product category margin disparities, and slowed executive regional reallocation.
+                    </p>
+                </div>
+                
+                <div class="modal-section">
+                    <h3><i data-lucide="git-merge"></i> Technical Solution</h3>
+                    <ul class="modal-list">
+                        <li><strong>Automated Ingestion:</strong> Connected Power BI to SQL server tables and operational Excel logs via Power Query with pre-defined transformation rules. Reduced report generation time from 3 hours to 15 minutes.</li>
+                        <li><strong>DAX Formula Architecture:</strong> Authored custom time-intelligence DAX measures including <code>TOTALYTD()</code>, <code>SAMEPERIODLASTYEAR()</code>, dynamic profit margins, and trailing 3-month moving averages.</li>
+                        <li><strong>Interactive Visuals:</strong> Configured cross-filtering slices by fiscal quarter, geographic region, and product category alongside sales rep leaderboard benchmarks.</li>
+                    </ul>
+                </div>
+                
+                <div class="modal-section">
+                    <h3><i data-lucide="trending-up"></i> Business Impact</h3>
+                    <p>
+                        Delivered an intuitive executive cockpit that pinpointed the top revenue-generating territory ($6.2M in North America) and exposed lagging profitability in select accessory lines, enabling leadership to protect a 40% target gross profit margin.
+                    </p>
+                </div>
+
+                <div class="modal-footer-actions">
+                    <a href="https://github.com/rishabhmishra989" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        <i data-lucide="github"></i>
+                        <span>Explore Analytics on GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: HR Workforce & Attrition -->
+    <div id="modal-3" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-3-title">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Close modal">&times;</button>
+            <div class="modal-header">
+                <span class="tech-pill-badge">People Analytics</span>
+                <h2 id="modal-3-title">HR Workforce & Attrition Analytics</h2>
+                <div class="tech-pills">
+                    <span class="tech-pill">Power BI</span>
+                    <span class="tech-pill">Excel</span>
+                    <span class="tech-pill">SQL</span>
+                    <span class="tech-pill">Workforce Planning</span>
+                </div>
+            </div>
+            
+            <div class="modal-body">
+                <img src="assets/images/project-hr.jpg" alt="HR Workforce Analytics Dashboard" class="modal-img">
+                
+                <!-- Metrics Grid -->
+                <div class="modal-metrics">
+                    <div class="metric-card">
+                        <div class="metric-value">1,420</div>
+                        <div class="metric-label">Total Headcount</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">11.4%</div>
+                        <div class="metric-label">Attrition Rate</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">3.8 Yrs</div>
+                        <div class="metric-label">Average Tenure</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">165</div>
+                        <div class="metric-label">New Hires YTD</div>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3><i data-lucide="alert-circle"></i> Business Problem</h3>
+                    <p>
+                        High corporate turnover rates were generating unsustainable recruitment costs and institutional memory loss. Human Resources required deep visibility into retention patterns across departments, salary bands, and career tenure brackets.
+                    </p>
+                </div>
+                
+                <div class="modal-section">
+                    <h3><i data-lucide="git-merge"></i> Technical Implementation</h3>
+                    <ul class="modal-list">
+                        <li><strong>Data Consolidation:</strong> Merged employee master records, performance appraisals, and exit interviews from SQL databases and HR spreadsheets.</li>
+                        <li><strong>Risk Modeling:</strong> Constructed a retention risk matrix plotting employee performance rating against tenure and compensation bands ($40k&ndash;$60k seeing 16% peak attrition).</li>
+                        <li><strong>Demographic Profiling:</strong> Built visual breakdowns for department attrition (Sales leading at 14.2%, followed by Engineering at 12.1%), gender distribution, and age groupings.</li>
+                    </ul>
+                </div>
+                
+                <div class="modal-section">
+                    <h3><i data-lucide="trending-up"></i> Strategic Outcomes</h3>
+                    <p>
+                        Pinpointed that 64% of resignations occurred within the first 24 months of tenure. Armed with this insight, HR leadership instituted a 90-day structured onboarding check-in program and salary adjustments for the highest flight-risk brackets, reducing early turnover.
+                    </p>
+                </div>
+
+                <div class="modal-footer-actions">
+                    <a href="https://github.com/rishabhmishra989" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        <i data-lucide="github"></i>
+                        <span>Explore Portfolio on GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Portfolio JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
